@@ -1,39 +1,11 @@
-{
-    int a, b, res;
-    char ch;
-    Scanner scan = new Scanner(System.in);
-    
-    System.out.print("Enter First Number : ");
-    a = scan.nextInt();
-    System.out.print("Enter Second Number : ");
-    b = scan.nextInt();
-    System.out.print("Enter Operator (+, -, *, /) : ");
-    ch = scan.next().charAt(0);
-    
-    if(ch == '+')
-    {
-         res = a + b;
-         System.out.print("Result = " +res);
-    }
-    else if(ch == '-')
-    {
-         res = a - b;
-         System.out.print("Result = " +res);
-    }
-    else if(ch == '*')
-    {
-         res = a * b;
-         System.out.print("Result = " +res);
-    }
-    else if(ch == '/')
-    {
-         res = a / b;
-         System.out.print("Result = " +res);
-    }
-    else
-    {
-         System.out.print("Wrong Operator !!!");
-    }
-         
- }
-}
+
+import {add} from '../utils.js';
+
+
+const addInputEl1 = document.getElementById("add-input 1")
+const addInputEl2 = document.getElementById("add-input 2")
+const addButtonEl = document.getElementById("change-button")
+const addResultsEl = document.getElementById("results")
+
+}); 
+
